@@ -15,32 +15,5 @@
   <div id="map-wrapper">
     <div id="map"></div>
   </div>
-  <div id="sidebar">
-    <!--
-    <% @districts.each do |district|%>
-    <ul class="districts">
-      <li id="sidebar-item-<%=district.id%>" class="district-item"><%= "#{district.name} #{district.name_eng}" %>
-        
-      <ul id="sidebar-list" class="subdistricts">
-        <% district.subdistricts.each do |subdistrict|%>
-        <li id="sidebar-item-<%=subdistrict.id%>" class="subdistrict-item collapse">
-          <%= link_to_function "#{subdistrict.name} #{subdistrict.name_eng}", "toggleExpand('sidebar-item-#{subdistrict.id}')" %>
-          
-          <ul id="sidebar-list" class="subdistricts">
-            <% subdistrict.recycle_bins.each do |recycle_bin|%>
-            <li id="sidebar-item-<%=recycle_bin.id%>" class="recycle-bin-item">
-              <%= link_to_function h("#{recycle_bin.add} - #{recycle_bin.add_eng}"), "focusPoint('#{recycle_bin.id}')" %>
-            </li>
-            <%end%>
-          </ul>
-          
-        </li>
-        <%end%>
-      </ul>
-      
-      </li>
-    </ul>
-    <%end%>
-    -->
-  </div>
+  <div id="sidebar"></div>
 </div>
