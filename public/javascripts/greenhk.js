@@ -10,6 +10,11 @@ var markers = {
   'subdistricts': subdistricts
 }
 
+var infoWindow = new google.maps.InfoWindow({
+	size: new google.maps.Size(250,80) 
+});
+
+
 // var markers = {
 //   'recycleBins':  <%= recycle_bins %>,
 //   'districts':    <%= districts %>,
@@ -17,7 +22,6 @@ var markers = {
 // }
 
 var currentFocus;
-var markerHash = {};
 
 function handleResize() {
 	var height = self.innerHeight - 30;
@@ -34,15 +38,14 @@ function drawMapAndMarkers() {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
-  var gMarkers = Array();
+	google.maps.event.addListener(map, 'click', function() {
+	  infoWindow.close();
+	});
+
+  var gMarkers = new Array();
   for (var index in markers.recycleBins) {
 	marker = markers.recycleBins[index];
-	gMarkers[index] = new google.maps.Marker({
-		title: marker.add + " - " + marker.add_eng,
-	    position: new google.maps.LatLng(marker.long, marker.lat),
-	    icon: "/images/recycle.png"
-	  });
-	markerHash[marker.id] = {marker: gMarkers[index], visible:true};
+	gMarkers[index] = addMarkerToMap(map, marker);
   }
   mgr = new MarkerManager(map, {trackMarkers: true, maxZoom: 20});
 
@@ -52,6 +55,21 @@ function drawMapAndMarkers() {
     mgr.addMarkers(gMarkers, 14, 20);
     mgr.refresh();
   });
+}
+
+function addMarkerToMap(map, marker) {
+	var content = "<p>" + marker.add + "</p><p>" + marker.add_eng + "</p>";
+	var gMarker = new google.maps.Marker({
+		title:  marker.add + " " + marker.add_eng,
+	    position: new google.maps.LatLng(marker.long, marker.lat),
+	    icon: "/images/recycle.png"
+	  });
+
+	google.maps.event.addListener(gMarker, 'click', function() {
+		infoWindow.setContent(content);
+	    infoWindow.open(map, gMarker);
+	  });
+	return gMarker;
 }
 
 function drawSideBar() {
@@ -124,9 +142,6 @@ function focusPoint(id) {
   }
   $('sidebar-item-'+id).addClass("current");
 
-  console.log("focus");	
-  // markerHash[id].marker.openInfoWindowHtml(markerHash[id].marker.description);
-
   currentFocus=id;
 }
 
@@ -154,7 +169,7 @@ function initialize() {
 $(document).ready(function(){
   $('.crud-list').dataTable({
     "sPaginationType": "full_numbers",
-     "iDisplayLength": 50
+    "iDisplayLength": 50
   });
 
   initialize();
