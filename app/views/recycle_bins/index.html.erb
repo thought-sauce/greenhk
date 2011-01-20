@@ -1,0 +1,23 @@
+<h1>Recycle Bins in <%= @subdistrict.name %> / <%= @subdistrict.name_eng %></h1>
+
+<table class="crud-list" id="recycle_bins_list">
+  <thead>
+    <tr>
+      <th>Address</th>
+      <th>Address Eng</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <% @recycle_bins.each do |recycle_bin| %>
+      <tr>
+        <td><%=h recycle_bin.add %></td>
+        <td><%=h recycle_bin.add_eng %></td>        
+        <td><%=h recycle_bin.lat %></td>
+        <td><%=h recycle_bin.long %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<h1>Districts</h1>
+
+<table class="crud-list" id="districts_list">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Name Eng</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <% @districts.each do |district| %>
+      <tr>
+        <td><%=h district.name %></td>
+        <td><%=h district.name_eng %></td>        
+        <td class="action"><%= link_to "Subdistricts", district_subdistricts_path(district) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

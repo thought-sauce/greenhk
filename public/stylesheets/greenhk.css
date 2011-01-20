@@ -1,0 +1,232 @@
+html { overflow: hidden; }
+
+html, body {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+}
+
+body { margin: 10px; }
+
+#content {
+     margin-top: 10px;
+     position: relative;
+     height: 600px;
+}
+
+#map {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     border: 1px solid #aaa;
+}
+
+#map-wrapper {
+     position: relative;
+     height: 100%;
+}
+
+#sidebar {
+     position: absolute;
+     border: 1px solid #aaa;
+     top: 0;
+     width: 290px;
+     height: 100%;
+     overflow: auto;
+}
+
+#sidebar p {
+     margin: 10px;
+}
+
+#sidebar ul.districts{ 
+	list-style: none;
+    padding: 5px;
+    margin: 0;
+}
+
+#sidebar ul#sidebar-list {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+
+#sidebar ul#sidebar-list li a {
+     display: block;
+     border: 1px solid #ddd;
+     background: #eee;
+     margin: 5px;
+     padding: 4px;
+     font: Helvetica, sans-serif;
+     text-decoration: none;
+     color: #444;
+}
+
+#sidebar ul#sidebar-list li.current a {
+     border: 1px solid #444;
+     border-left-width: 3px;
+     padding-left: 2px;
+}
+
+#sidebar ul#sidebar-list li a:hover {
+     background: white;
+     color: #555;
+}
+
+#sidebar ul#sidebar-list li a strong {
+     display: block;
+}
+
+li.subdistrict-item.expand li {
+    display: block;
+}
+
+li.subdistrict-item.collapse li {
+    display: none;
+}
+
+li.subdistrict-item a {
+    font-size: 12px;	
+}
+
+li.recycle-bin-item {
+	padding-left: 10px;
+}
+
+li.recycle-bin-item a {
+	font-style: italic;
+    font-size: 9px;
+}
+
+/* The default is the sidebar to show as per these styles 
+for map-wrapper, the sidebar, and the show/hide links */
+#map-wrapper { margin-right: 300px; }
+
+#sidebar { 
+  right: 0px; 
+  display:block;
+}
+
+#button-sidebar-show {display:none;}
+#button-sidebar-hide {display:block;}
+
+/* When the body class is set to "sidebar off," the following
+styles take effect to 1) hide the sidebar; 2) remove the right margin
+for the map; 3) adjust the visibility of the show/hide links. */
+body.sidebar-off #sidebar { display: none; }
+body.sidebar-off #map-wrapper { margin-right: 0px; }
+body.sidebar-off #button-sidebar-show { display: block; }
+body.sidebar-off #button-sidebar-hide { display: none; }
+
+#toolbar {
+     background: white;
+     padding: 3px;
+     border: 1px solid black;
+     position: relative;
+}
+
+/* holly hack for IE to get position:bottom right 
+   see: http://www.positioniseverything.net/abs_relbugs.html
+\*/
+* html #toolbar { height: 1px; }
+/* */
+
+#toolbar h1 {
+     margin: 0;
+     font: bold 18px Helvetica, sans-serif;
+     padding: 5px;
+}
+
+#toolbar ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+
+#toolbar ul#sidebar-info {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+#toolbar ul li {
+     display: inline;
+}
+
+#toolbar ul li a {
+     padding: 3px 6px;
+     color: #444;
+     text-decoration: none;
+     font-size: 12px;
+}
+
+#toolbar ul li a:hover {
+     color: #aaa;
+     background: #444;
+}
+
+#alert {
+     position: absolute;
+     top: 50%;
+     left: 0;
+     width: 100%;
+     text-align: center;   
+     display: none;
+}
+
+#alert p {
+     width: 150px;
+     margin: 0 auto 0 auto;
+     padding: 10px;
+     background: white;
+     border: 1px solid #aaa;
+}
+
+/*
+  for listing
+*/
+table.crud-list, table.crud-list th, table.crud-list td {
+	border-style: solid;
+	border-width: 1px;
+}
+
+div.actions {
+	clear: both;
+}
+
+th {
+	padding-left: 2px;
+	padding-right: 15px;
+}
+
+.sorting {
+  background:url("../images/sort_both.png") no-repeat scroll right center transparent;
+}
+
+.sorting_asc {
+  background:url("../images/sort_asc.png") no-repeat scroll right center transparent;
+}
+
+.sorting_desc {
+  background:url("../images/sort_desc.png") no-repeat scroll right center transparent;
+}
+
+.dataTables_paginate {
+    float: right;
+    text-align: right;
+}
+
+.paging_full_numbers span.paginate_button {
+    background-color: #DDDDDD;
+}
+
+.paging_full_numbers span.paginate_button,
+.paging_full_numbers span.paginate_active {
+    -moz-border-radius: 5px 5px 5px 5px;
+    border: 1px solid #AAAAAA;
+    cursor: pointer;
+    margin: 0 3px;
+    padding: 2px 5px;
+}

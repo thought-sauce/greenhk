@@ -1,0 +1,21 @@
+<h1>Sub-Districts</h1>
+
+<table class="crud-list" id="subdistricts_list">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Name Eng</th>
+      <th>&nbsp;</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    <% @subdistricts.each do |subdistrict| %>
+      <tr>
+        <td><%=h subdistrict.name %></td>
+        <td><%=h subdistrict.name_eng %></td>        
+        <td class="action"><%= link_to "Subdistricts", subdistrict_recycle_bins_path(subdistrict) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

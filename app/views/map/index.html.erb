@@ -1,0 +1,46 @@
+<div id="toolbar">
+  <h1>Hong Kong Recycling Facilities 香港環保設施</h1>
+  <ul id="filters">
+    <li><%=link_to_function 'All', "filter('All')"%></li>
+    <li><%=link_to_function "Recycle Bins 資源回收筒", "filter('recycle_bins')"%></li>
+  </ul>
+  <ul id="sidebar-info">
+    <li><%= link_to 'About Green HK', "about_greenhk.html" %></li>
+    <li><%= link_to 'Eddie@Thought Sauce', "http://thought-sauce.com" %></li>
+    <li><%= link_to 'Open Source@Github', "https://github.com/3dd13" %></li>
+  </ul>
+</div>
+
+<div id="content">
+  <div id="map-wrapper">
+    <div id="map"></div>
+  </div>
+  <div id="sidebar">
+    <!--
+    <% @districts.each do |district|%>
+    <ul class="districts">
+      <li id="sidebar-item-<%=district.id%>" class="district-item"><%= "#{district.name} #{district.name_eng}" %>
+        
+      <ul id="sidebar-list" class="subdistricts">
+        <% district.subdistricts.each do |subdistrict|%>
+        <li id="sidebar-item-<%=subdistrict.id%>" class="subdistrict-item collapse">
+          <%= link_to_function "#{subdistrict.name} #{subdistrict.name_eng}", "toggleExpand('sidebar-item-#{subdistrict.id}')" %>
+          
+          <ul id="sidebar-list" class="subdistricts">
+            <% subdistrict.recycle_bins.each do |recycle_bin|%>
+            <li id="sidebar-item-<%=recycle_bin.id%>" class="recycle-bin-item">
+              <%= link_to_function h("#{recycle_bin.add} - #{recycle_bin.add_eng}"), "focusPoint('#{recycle_bin.id}')" %>
+            </li>
+            <%end%>
+          </ul>
+          
+        </li>
+        <%end%>
+      </ul>
+      
+      </li>
+    </ul>
+    <%end%>
+    -->
+  </div>
+</div>

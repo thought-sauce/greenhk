@@ -1,0 +1,330 @@
+離島區
+Islands
+
+大嶼山昂平巴士總站
+Ngong Ping Bus Terminus, Lantau
+
+大嶼山大澳巴士總站
+Tai O Bus Terminus, Lantau
+
+大嶼山梅窩街市銀石街入口
+Ngan Shek Street Entrance of Mui Wo Market Complex, Lantau
+
+大嶼山梅窩大地塘垃圾收集站
+Tai Tei Tong RCP, Mui Wo, Lantau
+
+大嶼山梅窩涌口村垃圾收集站
+Chung Hau Tsuen RCP, Mui Wo, Lantau
+
+大嶼山塘福巴士總站
+Tong Fuk Bus Terminus, Lantau
+
+大嶼山貝澳羅屋村旱廁前
+In front of Pui O Lo Uk Village Aqua Privy, Lantau
+
+港鐵東涌站前
+In front of Tung Chung MTR Station
+
+南丫島榕樹塱垃圾收集站側
+At side of Yung Shue Long RCP, Lamma Island
+
+南丫島北角碼頭右側
+Right side of Pok Kok Pier, Lamma Island
+
+南丫島索罟灣天后廟前
+In front of Tin Hau Temple, Sok Kwu Wan, Lamma Island
+
+南丫島榕樹灣大街公共圖書館前
+In front of Public Library at Yung Shue Wan Main Street, Lamma Island
+
+長洲新興後街垃圾收集站前
+In front of San Hing Back Street RCP, Cheung Chau
+
+長洲街市垃圾收集站
+Cheung Chau Market Complex RCP, Cheung Chau
+
+長洲山頂道公廁側
+At side of Peak Road Public Toilet, Cheung Chau
+
+南丫島榕樹灣大街天后廟前
+In front of Tin Hau Temple, Yung Shue Wan Main Street, Lamma Island
+
+長洲大新後街便以利教會對面垃圾站
+RCP opposite to Penial Church at Tai San Back Street, Cheung Chau
+
+長洲中興街廣新祥垃圾收集站側
+At side of Kwong San Cheung RCP, Chung Hing Street, Cheung Chau
+
+坪洲東灣永東街一號前
+In front of 1 Wing Tung Street, Tung Wan, Peng Chau
+
+坪洲南灣19C對面之垃圾收集站前
+In front of RCP opposite to 19C Nam Wan, Peng Chau
+
+南大嶼山石灣村空地
+Open Space at San Shek Wan Village, South Lantau
+
+大澳石仔街102號前
+In front of No.102 Shek Tsai Po Street, Tai O
+
+梅窩銀樹街垃圾收集站
+Ngan Shu Street RCP, Mui Wo
+
+長洲國民路垃圾收集站
+Kwok Man Road RCP, Cheung Chau
+
+長洲渡輪碼頭
+Cheung Chau Ferry Pier Concourse
+
+大嶼山梅窩渡輪碼頭
+Mui Wo Ferry Pier Concourse, Lantau
+
+南丫島榕樹灣渡輪碼頭
+Yung Shue Wan Ferry Pier Concourse Lamma Island
+
+南丫島索罟灣渡輪碼頭
+Sok Kwu Wan Ferry Pier Concourse, Lamma Island
+
+坪洲渡輪碼頭
+Peng Chau Ferry Pier Concourse, Peng Chau
+
+東涌新市鎮公共交通轉運處
+Public Transport Interchange at Tung Chung New Town
+
+坪洲聖家路坪洲診所外
+Outside Peng Chau Clinic, Shing Ka Road, Peng Chau
+
+坪洲好景台愉景街3A外
+Outside 3A Yue King Street, Ho King Terrace, Peng Chau
+
+大嶼山嶼南路長富街五號
+5 Cheung Fu Street, South Lantau Road, Lantau
+
+大澳太平街公廁旁
+At side of Tai Peng Street Public Toilet, Tai O
+
+南丫島大灣新村 37號對面空地
+Open space opposite to No. 37 Tai Wan Sun Tsuen, Yung Shue Wan, Lamma Island
+
+南丫島榕樹灣太平村77B垃圾站附近的空地
+Open space near RCP at 77B Tai Peng Village, Yung Shue Wan, Lamma Island
+
+近南丫島太平村87號空地
+Near No. 87, Tai Ping Village, Lamma Island
+
+南丫島榕樹灣大坪新村102號對面
+Opposite to No.102 Tai Peng New Village, Yung Shue Wan, Lamma Island
+
+南丫島榕樹灣風車展覧中心外
+Outside Wing Turbine Exhibition Centre, Tai Ling On, Yung Shue Wan, Lamma Island
+
+大嶼山水口公廁外
+Outside Shui Hau Public Toilet, Lantau Island
+
+大嶼山昂平市集外
+Outside the Theme Village
+at Ngong Ping, Lantau Island
+
+東涌石門甲村公廁旁
+At side of Shek Mun Kap Public Toilet, Tung Chung
+
+南丫島大園村21號外垃圾桶站旁
+At side of refuse bin site opposite to no. 21 Tai Yuen Village, Lamma Island
+
+南丫島寶華園40號A附近垃圾收集站旁
+At side of refuse collection point near no. 40A Po Wah Yuen, Lamma Island
+
+大嶼南貝澳老圍村8Ａ号前行人路
+Pavement in front of No. 8A, Lo Wai Tsuen, Pui O, South Lantau
+
+大嶼南長沙上村28号前行人路
+Pavement in front of 28 Cheung Sha Upper Village, South Lantau
+
+大嶼南白銀鄉81号附近空地
+Open area near 81 Pak Ngan Heung, South Lantau
+
+南大嶼山長富街26号外垃圾桶站旁
+Side of refuse bin site near no. 26 Cheung Fu Street, South Lantau
+
+南丫島橫塱村對面垃圾桶站旁
+Side of refuses bin site opposite to Wang Long Village, Lamma Island
+
+霸尾垃圾收集站
+Pei Mei Village RCP, Tung Chung
+
+大浪灣村垃圾收集站
+Tai Long Wan RCP (at side of Aqua Privy), Lantau
+
+塘福村142號垃圾收集站
+Tong Fuk Village RCP, Lantau
+
+大澳海濱長廊垃圾桶旁
+Side of refuses bin at Historic Seawall, Tai O
+
+大嶼山梅窩鹿地塘村V6449燈柱旁
+Near Lamp post V6449, Luk Tei Tong Tsuen, Mui Wo, Lantau Islands
+
+南丫島模達灣村29號前空地
+Open Space in front of 29 Mo Tat Wan Tsuen, Lamma Island
+
+長洲長貴路9號桂濤花園前行人路
+Pavement in front of Scenic Garden, 9 Cheung Kwai Road, Cheung Chau
+
+長洲思高路近飽思高青年中心前小徑
+Path near Don Bosco Youth Center, Don Bosco Road
+
+長洲東灣路及新興後街交界
+Junction between Tung Wan Road and San Hing Back Street
+
+長洲西灣路金銀灣前行人路
+Pavement in front of Treasure Bay, Sai Wan Road, Cheung Chau
+
+大嶼山東涌文東路行人路(近狗廁所)
+Pavement at Man Tung Road (near dog larine), Tung Chung, Lantau Island
+
+大嶼山東涌新碼頭前空地
+Open space in front of Tung Chung New Ferry Pier, Tung Chung, Lantau Island
+
+坪洲永安橫街近坪洲政府合署前行人路
+Pavement in front of Wing On Side Street (near Peng Chau Government Building), Peng Chau
+
+大嶼山梅窩碼頭路迴旋處旁行人路
+Pavement near Roundabout of Mui Wo Ferry Pier Road, Lantau Island
+
+大嶼山東涌馬灣涌公廁旁
+At side of Ma Wan Chung Public Toilet, Tung Chung, Lantau Island
+
+大嶼山東涌候王廟公廁旁
+At side of Hau Wong Temple Public Toilet, Tung Chung, Lantau Island
+
+鹹田舊村鹹田花園旁
+At side of Ham Tin Garden, Ham Tin Kau Village
+
+贊端路及長洲西堤道交界行人路 (贊端路垃圾站旁)
+Pavement at junction of Tsan Tuen Road and Cheung Chau Sai Tai Road (at side of Tsan Tuen Road RCP)
+
+大嶼山嶼南道麗濱別墅入口旁行人路
+Pavement at side of the entrance of Leyburn Villas at South Lantau Road, Lantau Island
+
+東涌黃龍坑垃圾站，大嶼山東涌黃龍坑
+Tung Chung Wong Lung Hang RCP at Wong Lung Hang, Tung Chung, Lantau
+
+索罟灣垃圾站，南丫島索罟灣
+Sok Kwu Wan RCP at Sok Kwu Wan, Lamma
+
+長洲警署後面垃圾站，長洲警署後面
+RCP at rear of Cheung Chau Police Station, Cheung Chau
+
+坪洲東灣燒烤區側垃圾站，坪洲東灣燒烤區側
+RCP at side of Tung Wan Barbecue Area, Peng Chau
+
+東涌馬灣涌垃圾站，大嶼山東涌馬灣涌
+RCP at Ma Wan Chung, Tung Chung, Lantau
+
+東涌石門甲垃圾站，大嶼山東涌石門甲
+RCP at Shek Mun Kap, Tung Chung, Lantau
+
+榕樹灣大街垃圾站，南丫島榕樹灣大街
+Yung Shue Wan Main Street RCP at Yung Shue Wan Main Street, Lamma
+
+寶華園垃圾站，南丫島寶華園
+Po Wah Yuen RCP at Po Wah Yuen, Lamma
+
+索罟灣模達垃圾站，南丫島索罟灣模達
+RCP at Mo Tat, Sok Kwu Wan, Lamma
+
+榕樹灣大坪垃圾站，南丫島榕樹灣大坪
+RCP at Tai Peng, Yung Shue Wan, Lamma
+
+大澳龍田村垃圾站，大嶼山大澳龍田村
+RCP at Lung Tin Estate, Tai O, Lantau
+
+坪洲南灣新村垃圾站，坪洲南灣新村507號B側
+RCP at side of 507B, Nam Wan San Tsuen, Peng Chau
+
+南丫島榕樹灣天后廟垃圾站，南丫島榕樹灣天后廟
+RCP at Tin Hau Temple, Yung Shue Wan Main Street, Lamma
+
+大嶼山上羌山鹿湖垃圾站，大嶼山上羌山鹿湖
+RCP at Luk Wu, Upper Keung Shan, Lantau
+
+昂平巴士總站垃圾站，大嶼山昂平巴士總站公廁側
+RCP at side of Ngong Ping Bus Terminus Public Toilet, Lantau
+
+大嶼山大澳石仔埗街94號對出垃圾站，大嶼山大澳石仔埗街94號對出
+RCP outside of 94, Shek Tsai Po Street, Tai O, Lantau
+
+長洲北社公廁垃圾站，長洲北社公廁側
+RCP at side of Pak She Public Toilet, Cheung Chau
+
+長洲山邊路及山頂路交界垃圾站 (CC-13)，長洲山邊路及山頂路交界
+RCP (CC-13) at junction of Hillside Road and Peak Road, Cheung Chau
+
+長洲觀音灣路近長洲遊樂場垃圾站 (CC-11)，長洲觀音灣路近長洲遊樂場
+RCP (CC-11) at Kwu Yam Wan Road near Cheung Chau Playground, Cheung Chau
+
+長洲山頂道近建道神學院垃圾站，長洲山頂道近建道神學院
+RCP at Peak Road near Kin To, Cheung Chau
+
+長洲山頂道近蘭苑垃圾站，長洲山頂道近蘭苑
+RCP at Peak Road near Lam Yuen, Cheung Chau
+
+長洲山頂道近碧輝花園垃圾站 (CC-8)，長洲山頂道近碧輝花園
+RCP (CC-8) at Peak Road near Pik Fai Garden, Cheung Chau
+
+長洲山頂道近福利農莊垃圾站，長洲山頂道近福利農莊
+RCP at Peak Road near Fook Li Farm, Cheung Chau
+
+長洲山頂道近天富花園垃圾站 (CC-7)，長洲山頂道近天富花園
+RCP (CC-7) at Peak Road near Tin Fook Garden, Cheung Chau
+
+長洲西灣西苑對面垃圾站，長洲西灣西苑對面
+RCP opposite of Sai Yuen, Sai Wan, Cheung Chau
+
+大嶼山東涌翔東路垃圾站內
+Inside Cheung Tung Road RCP, Lantau Island
+
+坪洲僑景街垃圾站 (PC-1)，坪洲僑景街
+RCP (PC-1) at side of 4, Kui King Street, Peng Chau
+
+坪洲南灣68號前垃圾站，坪洲南灣68號前
+RCP in front of 68, Nam Wan, Peng Chau
+
+坪洲永興街水務署側垃圾站，坪洲永興街水務署側
+RCP at side of Water Supplies Dept, Wing Hing Street, Peng Chau
+
+坪洲愉景街垃圾站，坪洲愉景街
+RCP in front of 3A, Yu King Street, Peng Chau
+
+長洲中興後街垃圾站，長洲中興後街
+RCP at Chung Hing Back Street, Cheung Chau
+
+大嶼山梅窩碼頭公廁旁垃圾站，大嶼山梅窩碼頭公廁旁
+RCP at Mui Wo Ferry Pier Road next to Public Toilet, Lantau
+
+大嶼山梅窩綜合大樓垃圾站，大嶼山梅窩綜合大樓
+RCP at Mui Wo Municipal Services Building, Lantau
+
+大嶼山東灣莫羅瑞華學校對面垃圾站，大嶼山東灣莫羅瑞華學校對面
+RCP opposite to Mok Law Shui Wah School, Tung Wan, Lantau
+
+長洲排廠路垃圾站，長洲排廠路
+RCP at Pai Chong Road, Cheung Chau
+
+長洲西堤路垃圾站，長洲西堤路
+RCP at Sai Tai Road, Cheung Chau
+
+大嶼山梅窩碼頭路18號新界鄉議局南約區中學前行人路
+Pavement in front of NT Heung Yee Kuk, Southern District Secondary School, 18 Mui Wo Ferry Pier Road, Lantau
+
+大嶼山梅窩三鄉白芒公廁側
+At side Pak Mong Three Village Public Toilet, MuiWo, Lantau
+
+大嶼山梅窩三鄉白芒迴旋處
+Roundabout at Pak Mong Three Village, MuiWo, Lantau
+
+南丫島洪聖爺和榕樹灣警崗中間之行山徑
+Footpath in between Hung Shing Ye and Yung Shue Wan Police Post, Lamma Island
+
+坪洲露坪街天后廟前垃圾筒站旁
+Beside Bin site in front of Tin Hau Temple, Lo Peng Street, Peng Chau

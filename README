@@ -1,0 +1,29 @@
+== About Green HK
+
+People are lazy to bring plastic bottles to recycle bin. Always blaming that there is no collection point near his home nor office.
+
+== Features
+
+* Marker Manager
+* Translating Address to Latitude and Longitude
+  * To keep the code simple, recycle Bin location is not modifiable.
+* Marker Filter (TODO)
+* Focus on Marker (TODO)
+
+
+== Getting Started
+
+* <strike>Setup MongoDB</strike>
+* <strike>mongoid.yml</strike>
+* The data is quite static at the moment, will move data out from mongoDB to simply json
+* Sign up for Google Map API Key
+
+== Technology Applied
+
+* Google API
+* Geocoder
+
+== Difficulties
+
+* Data Source
+* Quality of data
