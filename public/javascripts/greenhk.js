@@ -4,6 +4,8 @@ var centreLongitude = 114.1;
 var centreLatLong = new google.maps.LatLng(centreLatitude, centreLongitude);
 var initZoomIndex = 11;
 
+var gMarkersHash = new Array();
+var map;
 var markers = {
   'recycleBins':  recycleBins,
   'districts':    districts,
@@ -31,7 +33,7 @@ function handleResize() {
 }
 
 function drawMapAndMarkers() {
-  var map = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById('map'), {
     center: centreLatLong,
     zoom:   initZoomIndex,
     minZoom: 11,
@@ -41,11 +43,12 @@ function drawMapAndMarkers() {
 	google.maps.event.addListener(map, 'click', function() {
 	  infoWindow.close();
 	});
-
   var gMarkers = new Array();
   for (var index in markers.recycleBins) {
 	marker = markers.recycleBins[index];
-	gMarkers[index] = addMarkerToMap(map, marker);
+	gMarker = addMarkerToMap(map, marker);
+	gMarkersHash[marker.id] = gMarker;
+	gMarkers[index] = gMarker;
   }
   mgr = new MarkerManager(map, {trackMarkers: true, maxZoom: 20});
 
@@ -58,17 +61,16 @@ function drawMapAndMarkers() {
 }
 
 function addMarkerToMap(map, marker) {
-	var content = "<p>" + marker.add + "</p><p>" + marker.add_eng + "</p>";
 	var gMarker = new google.maps.Marker({
-		title:  marker.add + " " + marker.add_eng,
+		title:  marker.add + " --- " + marker.add_eng,
 	    position: new google.maps.LatLng(marker.long, marker.lat),
 	    icon: "/images/recycle.png"
 	  });
 
 	google.maps.event.addListener(gMarker, 'click', function() {
-		infoWindow.setContent(content);
-	    infoWindow.open(map, gMarker);
-	  });
+		console.log("gMarker" + gMarker);
+      showInfoWindow(gMarker);
+	});
 	return gMarker;
 }
 
@@ -140,9 +142,20 @@ function focusPoint(id) {
   if (currentFocus) {
     $('#sidebar-item-' + currentFocus).removeClass("current");
   }
-  $('sidebar-item-'+id).addClass("current");
+  $('sidebar-item-' + id).addClass("current");
+  
+  showInfoWindow(gMarkersHash[id]);
 
   currentFocus=id;
+}
+
+function showInfoWindow(gMarker) {
+  console.log(gMarker);
+
+  var contentString = gMarker.getTitle().split(" --- ");
+  console.log(contentString);
+  infoWindow.setContent("<p>" + contentString[0] + "</p><p>" + contentString[1] + "</p>");
+  infoWindow.open(map, gMarker);
 }
 
 function toggleExpand(element_id) {	
