@@ -1,29 +1,40 @@
-== About Green HK
+=== About Green HK
 
 People are lazy to bring plastic bottles to recycle bin. Always blaming that there is no collection point near his home nor office.
 
-== Features
 
-* Marker Manager
-* Translating Address to Latitude and Longitude
-  * To keep the code simple, recycle Bin location is not modifiable.
-* Marker Filter (TODO)
-* Focus on Marker (TODO)
+=== Features
+
+* Geocoding: Translating Address to Latitude and Longitude
+* Google Map: Recycle Bin location
+* Marker as JSON: Stores objects into database and then export as json into cacheable javascript
+* Marker Manager: Show different set of markers for different zoom level
+* Nested Marker Menu: Recycle Bins are group by District. Clicking the sidebar location will change focus point to the selected Recycle Bin
 
 
-== Getting Started
+=== Getting Started
 
-* <strike>Setup MongoDB</strike>
-* <strike>mongoid.yml</strike>
-* The data is quite static at the moment, will move data out from mongoDB to simply json
-* Sign up for Google Map API Key
+* Setup MongoDB
+* update mongoid.yml
 
-== Technology Applied
 
-* Google API
-* Geocoder
+=== Technology Applied
 
-== Difficulties
+* Ruby Rake
+* Mongo DB
+* Google Map API
+* Google Geocoding API
+
+
+=== Difficulties
 
 * Data Source
 * Quality of data
+
+
+=== TODO
+
+* fine tuning geocoding complicated address pattern
+* include air pollution index
+* directly retrieve data from mongo database and performance tuning
+
