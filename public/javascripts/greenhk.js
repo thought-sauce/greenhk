@@ -19,10 +19,10 @@ var infoWindow = new google.maps.InfoWindow({
 var currentFocus;
 
 function handleResize() {
-	var height = self.innerHeight - 30;
-
-	$('map').height(height + 'px');
-	$('sidebar').height(height + 'px');
+	var height = window.innerHeight - 75;
+	
+	$('#map').height(height + 'px');
+	$('#sidebar').height(height + 'px');
 }
 
 function drawMapAndMarkers() {
@@ -32,6 +32,10 @@ function drawMapAndMarkers() {
 		minZoom: 11,
 		mapTypeId: google.maps.MapTypeId.ROADMAP
 	});
+	
+    var bounds = new google.maps.LatLngBounds(new google.maps.LatLng(22.170731493009676, 113.75255737304688),
+                                 new google.maps.LatLng(22.553006189993233, 114.44744262695313));
+	map.fitBounds(bounds);
 
 	google.maps.event.addListener(map, 'click', function() {
 		infoWindow.close();
@@ -136,7 +140,16 @@ function focusPoint(id) {
 	}
 	$('sidebar-item-' + id).addClass("current");
 
-	showInfoWindow(gMarkersHash[id]);
+    var marker = gMarkersHash[id];
+    var latValue = marker.position.wa;
+    var longValue = marker.position.ya;
+	var bounds = new google.maps.LatLngBounds(
+	                   new google.maps.LatLng(latValue - 0.0005, longValue - 0.0005),
+	                   new google.maps.LatLng(latValue + 0.0005, longValue + 0.0005)
+	             );
+	map.fitBounds(bounds);
+	
+	showInfoWindow(marker);
 
 	currentFocus=id;
 }
@@ -162,6 +175,7 @@ function toggleExpand(element_id) {
 function initialize() {
 	drawSideBar();
 
+    $(window).bind("resize", handleResize);
 	handleResize();
 
 	drawMapAndMarkers();
