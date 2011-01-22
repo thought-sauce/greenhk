@@ -9,4 +9,3 @@
 District.create!(:name => "新界",  :name_eng => "New Territories")
 District.create!(:name => "九龍",  :name_eng => "Kowloon")
 District.create!(:name => "香港島", :name_eng => "Hong Kong Island")
-District.create!(:name => "離島",  :name_eng => "Islands")

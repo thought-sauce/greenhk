@@ -1,3 +1,5 @@
+require 'open-uri'
+
 module DistrictParser
   def self.parse(district, file_name) 
     if district

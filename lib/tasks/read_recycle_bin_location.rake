@@ -1,5 +1,3 @@
-require 'json'
-require 'open-uri'
 require 'district_parser'
 require 'geocoder_processor'
 include GeocoderProcessor
@@ -9,7 +7,7 @@ namespace :recycle_bin do
   task :parse_location => :environment do
     districts = District.all
     raise "no district exists. please run db:seed to create the default districts." if districts.empty?
-        
+
     cleanup_data
     
     [:hk, :kln, :nt, :is].each { |prefix|
@@ -18,15 +16,20 @@ namespace :recycle_bin do
       }
     }
   end
+
+  desc "Translate subdistrict address into latitude and longitude using Google Geocoder V3"
+  task :geocode_subdistricts => :environment do
+    (Subdistrict.find :all).each do |subdistrict|
+      GeocoderProcessor.update_subdistrict_latlng(subdistrict)
+    end
+  end
   
-  desc "Translate address into latitude and longitude using Google Web Services"
-  task :google_geocode => :environment do
+  desc "Translate address into latitude and longitude using Google Geocoder V3"
+  task :geocode_recycle_bins => :environment do
     (RecycleBin.find :all).each do |recycle_bin|
-      # p "\nRecycle Bin Chinese Address: #{recycle_bin.add}"
-      # p "Recycle Bin English Address: #{recycle_bin.add_eng}"
-      GeocoderProcessor.multiple_dimension_search(recycle_bin)
-    end # end each store
-  end # end rake task
+      GeocoderProcessor.update_recycle_bin_latlng(recycle_bin)
+    end
+  end
 end
 
 # i dont want to store the short prefix name into db ...

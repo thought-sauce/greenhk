@@ -21,18 +21,17 @@ gem 'rails', '3.0.3'
 # gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
-# gem "mongoid", "2.0.0.rc.5"
-# gem "bson_ext", "1.1.5"
+gem "mongoid", "2.0.0.rc.5"
+gem "bson_ext", "1.1.5"
 # gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
-# gem 'json'
+gem 'json'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
-gem 'mongrel'
+group :development, :test do
+  gem 'mongrel'
+end
 
 group :test do
   gem 'rspec'
